@@ -26,7 +26,8 @@ venv\Scripts\activate
 # macOS / Linux
 # source venv/bin/activate
 
-pip install -r [requirements.txt]
+pip install -r requirements.txt
+python -m src.main or python -m src.main --request "The CRM should alert us when our relationship with a country goes cold."
 
 ## Prompts
 
